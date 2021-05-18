@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p 'Enter any string:' string1
+length1=$(echo -n $string1: | wc -m)
+echo "The length of string is $length1"
+
+

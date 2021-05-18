@@ -1,0 +1,13 @@
+#!/bin/bash
+read -p 'Enter purchase amount: ' purchaseAmount
+if [ $purchaseAmount -lt 1000 ]
+then
+        tax=`echo $purchaseAmount '*' 2 / 100 | bc`
+        discount=`echo $purchaseAmount '*' 10 / 100 | bc`
+
+else
+        tax=`echo $purchaseAmount '*' 5 / 100 | bc`
+        discount=`echo $purchaseAmount '*' 20 / 100 | bc`
+fi
+amount=`expr $purchaseAmount + $tax - $discount`
+echo "Payment: $amount"

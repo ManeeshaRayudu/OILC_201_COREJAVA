@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p 'Enter basic salary: ' basicSalary
+ta=`echo $basicSalary '*' 15 / 100 | bc`
+da=`echo $basicSalary '*' 2 / 100 | bc`
+hra=`echo $basicSalary '*' 10 / 100 | bc`
+incomeTax=`echo $basicSalary '*' 5 / 100 | bc`
+providendFund=`echo $basicSalary '*' 10 / 100 | bc`
+addSalary=`echo $hra + $ta + $da | bc`
+dedctionSalary=`echo $incomeTax + $providendFund | bc`
+netSalary=`echo $basicSalary + $addSalary - $dedctionSalary | bc`
+echo "The Net Salary is $netSalary"

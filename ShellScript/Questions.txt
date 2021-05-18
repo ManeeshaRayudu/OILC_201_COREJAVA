@@ -1,0 +1,33 @@
+1. Write a shell script to find whether an input integer is even or odd?
+
+2. Write a shell script to find out the greatest among three inputs ?.
+
+3. Write a shell script to calculate the net salary of an employee in a particular month considering various
+
+  allowances (TA, DA, HRA) and deductions (INCOME TAX, PROVIDEND FUND) as:
+
+a. TA=15 percent of basic salary
+
+b. DA=2 percent of basic salary
+
+c. HRA=10 percent of basic salary
+
+d. INCOME TAX=5 percent of salary
+
+e. PROVIDEND FUND=10 percent of salary
+
+ 
+
+4. A departmental store announces its festival scheme to customers on cash payment. The scheme is as
+
+follows[1]a. If purchase amount is less than 1000 then Tax=2% and discount=10%.
+
+b. If purchase amount is greater than 1000 then Tax=5 % and discount=20%.
+
+ 
+
+5. Write a shell script to perform an arithmetic operation upon two inputs. The operation should also be input
+
+by the user
+
+6. Write a shell script to find out the length of an input string.
